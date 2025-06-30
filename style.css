@@ -73,3 +73,38 @@ form button {
 ul li {
   margin-bottom: 0.5rem;
 }
+:root {
+  --primary: #14532d;
+  --accent: #5eead4;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+  color: #14532d;
+  line-height: 1.7;
+}
+
+/* HERO sekce */
+.hero {
+  background-image: url('https://source.unsplash.com/1600x400/?insurance,flat,illustration');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1, .hero h2, .hero p {
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Accent sekce */
+.section-accent {
+  background-color: #e0f7f4;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
