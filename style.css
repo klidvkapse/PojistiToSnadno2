@@ -1,31 +1,35 @@
 :root {
-  --primary: #58b1f5; /* Light blue */
+  --primary: #58b1f5;
   --accent: #5eead4;
+  --text-main: #0e314c;
+  --bg: #f8fafc;
+  --card-bg: #fff;
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8fafc;
-  color: #14532d;
-  line-height: 1.7;
+  color: var(--text-main);
+  background: var(--bg);
 }
 
 h1, h2, h3 {
-  color: #14532d;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
+  color: var(--text-main);
 }
 
 nav {
-  background-color: var(--primary) !important;
+  background: var(--primary) !important;
 }
 
 nav a, nav strong {
-  color: white !important;
+  color: #fff !important;
 }
 
-nav a:hover {
-  color: var(--accent) !important;
+.section-accent {
+  background: #e5f6fd;
+}
+
+button, input[type="submit"] {
+  background: var(--primary) !important;
+  color: #fff;
 }
 
 .hero {
@@ -175,7 +179,24 @@ figure img {
   .stories-grid article {
     padding: 0.8rem 0.7rem 0.7rem 0.7rem;
   }
+@media (max-width: 600px) {
+  nav ul, nav li, nav a {
+    font-size: 0.95rem !important;
+  }
+  nav ul {
+    flex-wrap: wrap;
+    gap: 0.2em;
+  }
+@media (max-width: 400px) {
+  nav ul li:not(:first-child) {
+    display: none;
+  }
+  nav ul li:last-child {
+    display: inline;
+  }
 }
+
+
 
 
 
