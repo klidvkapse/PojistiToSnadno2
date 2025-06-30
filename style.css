@@ -17,7 +17,7 @@ h1, h2, h3 {
 }
 
 nav {
-  background-color: #58b1f5;
+  background-color: var(--primary) !important;
 }
 
 nav a, nav strong {
@@ -54,7 +54,7 @@ main.container {
 }
 
 button, input[type="submit"] {
-  background-color: #58b1f5;
+  background-color: var(--primary) !important;
   color: white;
   border: none;
   border-radius: 25px;
@@ -62,13 +62,13 @@ button, input[type="submit"] {
 }
 
 button:hover, input[type="submit"]:hover {
-  background-color: #4294d7; /* darker blue */
+  background-color: #4294d7 !important; /* darker blue */
 }
 
 footer {
   margin-top: 4rem;
   padding: 2rem 0;
-  background-color: #58b1f5;
+  background-color: var(--primary) !important;
   color: white;
   text-align: center;
 }
@@ -95,3 +95,5 @@ ul li::before {
   content: "✔️ ";
   margin-right: 0.5rem;
 }
+
+
