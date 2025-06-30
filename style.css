@@ -139,6 +139,44 @@ figure img {
     padding: 0.6rem 1rem;
   }
 }
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.3rem;
+  margin-top: 1.5rem;
+}
+.stories-grid article {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(40, 120, 180, 0.06);
+  padding: 1.1rem 1.2rem 0.9rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 155px;
+  transition: box-shadow 0.2s;
+}
+.stories-grid article:hover {
+  box-shadow: 0 4px 18px rgba(40, 120, 180, 0.18);
+}
+.stories-grid h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.4rem 0;
+  color: #14532d;
+}
+.stories-grid p {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  .stories-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .stories-grid article {
+    padding: 0.8rem 0.7rem 0.7rem 0.7rem;
+  }
+}
+
 
 
 
