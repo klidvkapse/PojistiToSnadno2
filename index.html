@@ -133,7 +133,6 @@
   <div class="carousel-dots"></div>
 </section>
 
-
     <h3>Jak to funguje?</h3>
     <p>1. Vyberete druh pojištění<br>2. Vyplníte krátký formulář<br>3. Domluvíme detailní konzultaci a sjednání</p>
 
@@ -157,7 +156,6 @@ const btnNext = document.querySelector('.carousel-btn.next');
 const dotsContainer = document.querySelector('.carousel-dots');
 let index = 0;
 
-// Dot nav
 for(let i=0; i<items.length; i++){
   const dot = document.createElement('div');
   dot.className = 'carousel-dot';
@@ -171,11 +169,15 @@ function updateDots(){
   dots.forEach((d,i)=>d.classList.toggle('active', i===index));
 }
 
+function getSlideWidth() {
+  // dynamická šířka kvůli mobile (vw)
+  return items[0].offsetWidth + parseInt(getComputedStyle(items[0]).marginLeft) + parseInt(getComputedStyle(items[0]).marginRight);
+}
+
 function goToSlide(i){
   index = i;
-  const slideWidth = items[0].offsetWidth + parseInt(getComputedStyle(items[0]).marginLeft) + parseInt(getComputedStyle(items[0]).marginRight);
   track.scrollTo({
-    left: slideWidth * i,
+    left: getSlideWidth() * i,
     behavior: "smooth"
   });
   updateDots();
@@ -194,7 +196,6 @@ btnNext.onclick = () => {
   }
 };
 
-// swipe support
 let startX = null;
 track.addEventListener('touchstart', (e) => {
   startX = e.touches[0].clientX;
