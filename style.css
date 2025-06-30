@@ -1,6 +1,8 @@
 :root {
-  --primary: #14532d;
+  --primary: #047857; /* Emerald green */
   --accent: #5eead4;
+}
+
 }
 
 body {
@@ -17,7 +19,7 @@ h1, h2, h3 {
 }
 
 nav {
-  background-color: #14532d;
+  background-color: #047857;
 }
 
 nav a, nav strong {
@@ -54,7 +56,7 @@ main.container {
 }
 
 button, input[type="submit"] {
-  background-color: #14532d;
+  background-color: #035243;
   color: white;
   border: none;
   border-radius: 25px;
@@ -62,13 +64,13 @@ button, input[type="submit"] {
 }
 
 button:hover, input[type="submit"]:hover {
-  background-color: #0f3e23;
+  background-color: #047857;
 }
 
 footer {
   margin-top: 4rem;
   padding: 2rem 0;
-  background-color: #14532d;
+  background-color: #047857;
   color: white;
   text-align: center;
 }
