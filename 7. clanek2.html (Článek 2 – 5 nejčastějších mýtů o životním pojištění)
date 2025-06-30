@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>5 mýtů o životním pojištění – PojistiToSnadno.cz</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  <style>
+    :root {
+      --primary: #14532d;
+      --accent: #5eead4;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="container-fluid">
+  <ul>
+    <li><strong>PojistiToSnadno.cz</strong></li>
+  </ul>
+  <ul>
+    <li><a href="index.html">Domů</a></li>
+    <li><a href="blog.html">Články</a></li>
+    <li><a href="kontakt.html" role="button">Kontakt</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+  <article>
+    <hgroup>
+      <h2>5 nejčastějších mýtů o životním pojištění</h2>
+    </hgroup>
+
+    <h3>Mýtus 1: Je to zbytečné, když mám úspory</h3>
+    <p>Úspory pokryjí výdaje jen omezenou dobu. Pojištění chrání vaši rodinu dlouhodobě.</p>
+
+    <h3>Mýtus 2: Pojišťovna stejně nic nevyplatí</h3>
+    <p>Při správně nastavené smlouvě a doložení dokumentů pojišťovna plní dle podmínek.</p>
+
+    <h3>Mýtus 3: Je to drahé</h3>
+    <p>Cena se dá nastavit podle možností. Již za pár set korun měsíčně lze mít dostatečné krytí.</p>
+
+    <h3>Mýtus 4: Stačí mi pojištění v práci</h3>
+    <p>Skupinové pojištění mívá omezené krytí a není přenosné při změně zaměstnání.</p>
+
+    <h3>Mýtus 5: Je jen na smrt</h3>
+    <p>Moderní životní pojištění kryje i vážné nemoci, invaliditu a pracovní neschopnost.</p>
+
+    <p><strong>👉 Chcete si ověřit, zda máte správně nastavené pojištění? Domluvte si konzultaci zdarma.</strong></p>
+  </article>
+</main>
+
+<footer class="container">
+  <small><a href="#">Ochrana osobních údajů</a> • <a href="#">Podmínky použití</a></small>
+</footer>
+
+</body>
+</html>
