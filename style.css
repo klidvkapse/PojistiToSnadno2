@@ -1,0 +1,75 @@
+:root {
+  --primary: #14532d;
+  --accent: #5eead4;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+  color: #14532d;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  color: #14532d;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+nav {
+  background-color: #14532d;
+}
+
+nav a, nav strong {
+  color: white !important;
+}
+
+nav a:hover {
+  color: var(--accent) !important;
+}
+
+main.container {
+  padding: 2rem 1rem;
+  max-width: 800px;
+}
+
+button, input[type="submit"] {
+  background-color: #14532d;
+  color: white;
+  border: none;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #0f3e23;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background-color: #14532d;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  color: var(--accent);
+}
+
+figure img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
