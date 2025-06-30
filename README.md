@@ -1,1 +1,0 @@
-# PojistiToSnadno2
