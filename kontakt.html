@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt – PojistiToSnadno.cz</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  <style>
+    :root {
+      --primary: #14532d;
+      --accent: #5eead4;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="container-fluid">
+  <ul>
+    <li><strong>PojistiToSnadno.cz</strong></li>
+  </ul>
+  <ul>
+    <li><a href="index.html">Domů</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+  <section>
+    <hgroup>
+      <h2>Kontaktujte mě</h2>
+      <h3>Rád vám poradím s pojištěním</h3>
+    </hgroup>
+    <p>📞 733 782 290<br>📩 pojistitosnadno@gmail.com</p>
+
+    <h3>Napište mi</h3>
+    <form class="grid">
+      <input type="text" placeholder="Vaše jméno" required />
+      <input type="email" placeholder="Váš email" required />
+      <textarea placeholder="Vaše zpráva" required></textarea>
+      <button type="submit" onclick="event.preventDefault()">Odeslat</button>
+    </form>
+  </section>
+</main>
+
+<footer class="container">
+  <small><a href="#">Ochrana osobních údajů</a> • <a href="#">Podmínky použití</a></small>
+</footer>
+
+</body>
+</html>
