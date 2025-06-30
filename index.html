@@ -64,7 +64,7 @@
 </section>
   <section class="section-accent">
   <h2>Reálné příběhy klientů</h2>
-  <div class="carousel">
+  <div class="carousel-wrap">
     <button class="carousel-btn prev" aria-label="Předchozí">&#8678;</button>
     <div class="carousel-track">
       <div class="carousel-item">
@@ -134,7 +134,6 @@
 </section>
 
 
-
     <h3>Jak to funguje?</h3>
     <p>1. Vyberete druh pojištění<br>2. Vyplníte krátký formulář<br>3. Domluvíme detailní konzultaci a sjednání</p>
 
@@ -174,8 +173,9 @@ function updateDots(){
 
 function goToSlide(i){
   index = i;
+  const slideWidth = items[0].offsetWidth + parseInt(getComputedStyle(items[0]).marginLeft) + parseInt(getComputedStyle(items[0]).marginRight);
   track.scrollTo({
-    left: items[0].offsetWidth * i,
+    left: slideWidth * i,
     behavior: "smooth"
   });
   updateDots();
@@ -207,6 +207,7 @@ track.addEventListener('touchend', (e) => {
   startX = null;
 });
 </script>
+
 
 </body>
 </html>
