@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>5 mýtů o životním pojištění – PojistiToSnadno.cz</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+ <link rel="stylesheet" href="style.css" />
   <style>
     :root {
       --primary: #14532d;
