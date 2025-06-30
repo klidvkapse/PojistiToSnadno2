@@ -87,18 +87,18 @@ body {
 
 /* HERO sekce */
 .hero {
-  background-image: url('https://source.unsplash.com/1600x400/?insurance,flat,illustration');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(rgba(20, 83, 45, 0.85), rgba(20, 83, 45, 0.85)),
+              url('https://source.unsplash.com/1600x400/?insurance,flat,illustration') center/cover no-repeat;
   color: white;
   padding: 4rem 2rem;
   text-align: center;
 }
 
-.hero h1, .hero h2, .hero p {
+.hero h1, .hero p {
   color: white;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
+
 
 /* Accent sekce */
 .section-accent {
