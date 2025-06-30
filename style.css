@@ -1,23 +1,23 @@
 :root {
-  --primary: #4a635d; /* Sage green */
+  --primary: #58b1f5; /* Light blue */
   --accent: #5eead4;
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f8fafc;
-  color: #4a635d;
+  color: #14532d;
   line-height: 1.7;
 }
 
 h1, h2, h3 {
-  color: #4a635d;
+  color: #14532d;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
 nav {
-  background-color: #4a635d;
+  background-color: #58b1f5;
 }
 
 nav a, nav strong {
@@ -29,7 +29,7 @@ nav a:hover {
 }
 
 .hero {
-  background: linear-gradient(rgba(74, 99, 93, 0.85), rgba(74, 99, 93, 0.85)),
+  background: linear-gradient(rgba(88, 177, 245, 0.85), rgba(88, 177, 245, 0.85)),
               url('https://source.unsplash.com/1600x400/?insurance,flat,illustration') center/cover no-repeat;
   color: white;
   padding: 4rem 2rem;
@@ -54,7 +54,7 @@ main.container {
 }
 
 button, input[type="submit"] {
-  background-color: #4a635d;
+  background-color: #58b1f5;
   color: white;
   border: none;
   border-radius: 25px;
@@ -62,13 +62,13 @@ button, input[type="submit"] {
 }
 
 button:hover, input[type="submit"]:hover {
-  background-color: #3b4f49; /* darker sage */
+  background-color: #4294d7; /* darker blue */
 }
 
 footer {
   margin-top: 4rem;
   padding: 2rem 0;
-  background-color: #4a635d;
+  background-color: #58b1f5;
   color: white;
   text-align: center;
 }
