@@ -95,5 +95,50 @@ ul li::before {
   content: "✔️ ";
   margin-right: 0.5rem;
 }
+/* 1. Uprav hero sekci, obrázky a sekce, aby byly fluidní */
+.hero {
+  padding: 3rem 1rem;
+}
+.hero img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.section-accent img,
+figure img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+/* 2. Menší fonty a méně paddingu na mobilech */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  .hero {
+    padding: 1.5rem 0.3rem;
+  }
+  main.container {
+    padding: 0.7rem 0.3rem;
+    max-width: 98vw;
+  }
+  .section-accent {
+    padding: 1rem 0.5rem;
+    margin: 1rem 0;
+  }
+  nav {
+    padding: 0.4rem 0.7rem;
+  }
+  button, input[type="submit"] {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+  }
+}
+
 
 
